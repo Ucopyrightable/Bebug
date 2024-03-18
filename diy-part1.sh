@@ -28,3 +28,8 @@ echo "luci-app-openclash" >> .git/info/sparse-checkout
 git pull --depth 1 origin master
 git branch --set-upstream-to=origin/master master
 cd ../../..
+cd package/modify
+git clone --depth=1 --single-branch https://github.com/xiaorouji/openwrt-passwall-packages.git
+git clone --depth=1 --single-branch https://github.com/xiaorouji/openwrt-passwall.git
+git clone --depth=1 --single-branch https://github.com/xiaorouji/openwrt-passwall2.git
+cd ../..
