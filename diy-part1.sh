@@ -17,7 +17,7 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' >>feeds.conf.default
 
-#Add Openclash
+#Add Openclash&passwall&passwall2
 mkdir package/modify
 mkdir package/modify/openclash
 cd package/modify/openclash
